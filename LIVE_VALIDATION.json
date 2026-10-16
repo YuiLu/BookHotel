@@ -1,0 +1,366 @@
+{
+  "at": "2026-10-04T08:52:35.528Z",
+  "hotelCode": "0000001834",
+  "hotelName": "秀峰閣  湖月",
+  "candidate": {
+    "hotelCode": "0000001834",
+    "stay": {
+      "checkIn": "2027-01-03",
+      "checkOut": "2027-01-04"
+    },
+    "planCode": "PL00028608",
+    "planName": "※スタンダードプラン（次の間タイプ和室）",
+    "roomCode": "RM00010240",
+    "roomName": "次の間タイプ和室",
+    "totalJpy": 85800,
+    "paymentMethods": "オンラインカード決済"
+  },
+  "quoteTotalJpy": 85800,
+  "paymentMethods": [
+    {
+      "type": "CREDIT_CARD",
+      "agent": "JBI"
+    }
+  ],
+  "cancellationEstimate": {
+    "asOfDate": "2026-10-04",
+    "daysBeforeCheckIn": 91,
+    "ratePercent": 0,
+    "freeDaysRemaining": 70,
+    "basis": "inferred-beyond-last-rate-bound",
+    "monotonic": true
+  },
+  "policySha256": "8d06a41223258bf4ab252f79087317628358d430b9810ae99f4c9ce6d228b816",
+  "invalid": [],
+  "disabled": false,
+  "blockedMutations": [
+    {
+      "method": "POST",
+      "path": "/guest-reserve-front/reservation/entry"
+    }
+  ],
+  "reachedInterceptedEntry": true,
+  "form": [
+    {
+      "origin": "https://d-reserve.jp",
+      "path": "/guest-reserve-front/GRES001F02100/GRES001A01",
+      "fields": [
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "ログインまたは会員登録"
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "checkbox",
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": "lastName",
+          "dataName": null,
+          "type": "text",
+          "autocomplete": null,
+          "required": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": "firstName",
+          "dataName": null,
+          "type": "text",
+          "autocomplete": null,
+          "required": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": "lastNameKana",
+          "dataName": null,
+          "type": "text",
+          "autocomplete": null,
+          "required": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": "firstNameKana",
+          "dataName": null,
+          "type": "text",
+          "autocomplete": null,
+          "required": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "checkbox",
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": "phoneCountryCode",
+          "dataName": null,
+          "type": "tel",
+          "autocomplete": "tel-country-code",
+          "required": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": null,
+          "dataName": "areaCode",
+          "type": "tel",
+          "autocomplete": "tel-area-code",
+          "required": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": null,
+          "dataName": "exchangeNumber",
+          "type": "tel",
+          "autocomplete": "tel-local-prefix",
+          "required": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": null,
+          "dataName": "subscriberNumber",
+          "type": "tel",
+          "autocomplete": "tel-local-suffix",
+          "required": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": "gender",
+          "dataName": null,
+          "type": "radio",
+          "autocomplete": null,
+          "required": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": "gender",
+          "dataName": null,
+          "type": "radio",
+          "autocomplete": null,
+          "required": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": "gender",
+          "dataName": null,
+          "type": "radio",
+          "autocomplete": null,
+          "required": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": "email",
+          "dataName": null,
+          "type": "text",
+          "autocomplete": null,
+          "required": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": null,
+          "dataName": "email-confirm",
+          "type": "text",
+          "autocomplete": null,
+          "required": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "checkbox",
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "人数変更"
+        },
+        {
+          "tag": "SELECT",
+          "id": "",
+          "name": "numberOfMales",
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "SELECT",
+          "id": "",
+          "name": "numberOfFemales",
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "SELECT",
+          "id": "",
+          "name": "numberOfOthers",
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "+ 部屋を追加する"
+        },
+        {
+          "tag": "SELECT",
+          "id": "",
+          "name": "reservationCheckInTime",
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "SELECT",
+          "id": "",
+          "name": "reservationQuestion",
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": true
+        },
+        {
+          "tag": "TEXTAREA",
+          "id": "",
+          "name": "reservationQuestion",
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "TEXTAREA",
+          "id": "",
+          "name": "reservationGuestComment",
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "キャンセル料金などについて"
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "radio",
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "約款"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "プライバシーポリシー"
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "checkbox",
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "決済へ進む"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "詳細▲"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "詳細"
+        }
+      ]
+    }
+  ]
+}

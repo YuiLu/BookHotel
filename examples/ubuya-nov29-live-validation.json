@@ -1,0 +1,731 @@
+{
+  "at": "2026-10-04T16:02:09.989Z",
+  "engine": "tripla",
+  "hotelCode": "4398",
+  "hotelName": "湖山亭 うぶや（产屋）",
+  "candidate": {
+    "engine": "tripla",
+    "hotelCode": "4398",
+    "stay": {
+      "checkIn": "2026-11-29",
+      "checkOut": "2026-11-30"
+    },
+    "roomCode": "20",
+    "roomName": "附露天浴池的特别房(98㎡)【富士山景观/禁烟】",
+    "planCode": "14572645-20-14098-4398",
+    "hotelPlanCode": "14572645",
+    "planName": "标准一晚住宿含两餐 - 时令自助餐",
+    "totalJpy": 118800,
+    "currency": "JPY",
+    "priceBreakdown": {
+      "baseJpy": 108000,
+      "consumptionTaxJpy": 10800,
+      "accommodationTaxJpy": 0
+    },
+    "inventory": 1,
+    "noRefund": true,
+    "cancellationFreeDeadline": "",
+    "paymentMethods": "信用卡支付"
+  },
+  "stage": "/reservation/guest-detail",
+  "contactFields": [
+    {
+      "id": "email",
+      "filled": true
+    },
+    {
+      "id": "email-confirm",
+      "filled": true
+    },
+    {
+      "id": "last-name-0",
+      "filled": true
+    },
+    {
+      "id": "first-name-0",
+      "filled": true
+    },
+    {
+      "id": "phone",
+      "filled": true
+    }
+  ],
+  "blockedTriplaMutations": [
+    {
+      "method": "POST",
+      "origin": "https://concierge.tripla.ai",
+      "path": "/book/api/v1/email_verification_results"
+    }
+  ],
+  "form": [
+    {
+      "origin": "https://www.ubuya.co.jp",
+      "path": "/en/room/",
+      "fields": [
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "1"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "2"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "3"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "4"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "1"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "2"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "3"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "4"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "1"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "2"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "3"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "4"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "1"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "2"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "3"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "1"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "2"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "3"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "1"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "2"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "3"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "1"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "2"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "1"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "2"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "1"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "2"
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "text",
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "SELECT",
+          "id": "adult-select",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "选择"
+        },
+        {
+          "tag": "SELECT",
+          "id": "rooms-select",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "submit",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "开始搜寻"
+        }
+      ]
+    },
+    {
+      "origin": "https://bw.tripla.ai",
+      "path": "/reservation/guest-detail",
+      "fields": [
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "关闭"
+        },
+        {
+          "tag": "SELECT",
+          "id": "__BVID__191",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "TEXTAREA",
+          "id": "extra-2324-answer",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "SELECT",
+          "id": "__BVID__198",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "TEXTAREA",
+          "id": "extra-2325-answer",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "SELECT",
+          "id": "__BVID__205",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "SELECT",
+          "id": "__BVID__211",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "INPUT",
+          "id": "__BVID__236",
+          "name": null,
+          "dataName": null,
+          "type": "checkbox",
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "INPUT",
+          "id": "email",
+          "name": null,
+          "dataName": null,
+          "type": "text",
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "INPUT",
+          "id": "email-confirm",
+          "name": null,
+          "dataName": null,
+          "type": "text",
+          "autocomplete": "chrome-off",
+          "required": false
+        },
+        {
+          "tag": "INPUT",
+          "id": "last-name-0",
+          "name": null,
+          "dataName": null,
+          "type": "text",
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "INPUT",
+          "id": "first-name-0",
+          "name": null,
+          "dataName": null,
+          "type": "text",
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "INPUT",
+          "id": "phone",
+          "name": null,
+          "dataName": null,
+          "type": "text",
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "INPUT",
+          "id": "postal-code",
+          "name": null,
+          "dataName": null,
+          "type": "text",
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "SELECT",
+          "id": "prefecture",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "INPUT",
+          "id": "street-address",
+          "name": null,
+          "dataName": null,
+          "type": "text",
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "INPUT",
+          "id": "building",
+          "name": null,
+          "dataName": null,
+          "type": "text",
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "INPUT",
+          "id": "__BVID__276",
+          "name": null,
+          "dataName": null,
+          "type": "checkbox",
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "SELECT",
+          "id": "__BVID__292",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "SELECT",
+          "id": "__BVID__294",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "SELECT",
+          "id": "__BVID__297",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "SELECT",
+          "id": "__BVID__303",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "SELECT",
+          "id": "__BVID__309",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "SELECT",
+          "id": "__BVID__315",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "TEXTAREA",
+          "id": "__BVID__321",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "SELECT",
+          "id": "__BVID__327",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "SELECT",
+          "id": "__BVID__333",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "SELECT",
+          "id": "__BVID__339",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "SELECT",
+          "id": "__BVID__345",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "INPUT",
+          "id": "__BVID__346",
+          "name": null,
+          "dataName": null,
+          "type": "checkbox",
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "INPUT",
+          "id": "__BVID__350",
+          "name": "__BVID__350-nogroup",
+          "dataName": null,
+          "type": "radio",
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "INPUT",
+          "id": "__BVID__353",
+          "name": "__BVID__353-nogroup",
+          "dataName": null,
+          "type": "radio",
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "INPUT",
+          "id": "__BVID__356",
+          "name": null,
+          "dataName": null,
+          "type": "checkbox",
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "INPUT",
+          "id": "__BVID__422",
+          "name": null,
+          "dataName": null,
+          "type": "checkbox",
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "上一页"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "submit",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "下一步"
+        }
+      ]
+    }
+  ],
+  "nextButtonClicked": false,
+  "realReservationCreated": false,
+  "realPaymentTested": false,
+  "holdConfirmed": false
+}

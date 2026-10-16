@@ -1,0 +1,361 @@
+{
+  "at": "2026-10-04T08:49:41.735Z",
+  "hotelCode": "0000001223",
+  "hotelName": "沖縄かりゆしビーチリゾート・オーシャンスパ",
+  "candidate": {
+    "hotelCode": "0000001223",
+    "stay": {
+      "checkIn": "2027-01-12",
+      "checkOut": "2027-01-13"
+    },
+    "planCode": "PL00060357",
+    "planName": "【2026年2月改装】生まれ変わった空間で寛ぎの時間◇館内スパ利用券付＆かりゆしラウンジ利用OK／素泊り",
+    "roomCode": "RM00022712",
+    "roomName": "モデレートツイン(2階)",
+    "totalJpy": 22892,
+    "paymentMethods": "オンラインカード決済,現地払い"
+  },
+  "quoteTotalJpy": 22892,
+  "paymentMethods": [
+    {
+      "type": "LOCAL",
+      "agent": null
+    },
+    {
+      "type": "CREDIT_CARD",
+      "agent": "JBI"
+    }
+  ],
+  "cancellationEstimate": {
+    "asOfDate": "2026-10-04",
+    "daysBeforeCheckIn": 100,
+    "ratePercent": 0,
+    "freeDaysRemaining": 93,
+    "basis": "inferred-beyond-last-rate-bound",
+    "monotonic": true
+  },
+  "policySha256": "e71006feb2f233e65a489fc64daf8620ff7e79c9119df40933118721d844af7a",
+  "invalid": [],
+  "disabled": false,
+  "blockedMutations": [
+    {
+      "method": "POST",
+      "path": "/guest-reserve-front/reservation/entry"
+    }
+  ],
+  "reachedInterceptedEntry": true,
+  "form": [
+    {
+      "origin": "https://d-reserve.jp",
+      "path": "/guest-reserve-front/GRES001F02100/GRES001A01",
+      "fields": [
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "ログインまたは会員登録"
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "checkbox",
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": "lastName",
+          "dataName": null,
+          "type": "text",
+          "autocomplete": null,
+          "required": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": "firstName",
+          "dataName": null,
+          "type": "text",
+          "autocomplete": null,
+          "required": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": "lastNameKana",
+          "dataName": null,
+          "type": "text",
+          "autocomplete": null,
+          "required": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": "firstNameKana",
+          "dataName": null,
+          "type": "text",
+          "autocomplete": null,
+          "required": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "checkbox",
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": "phoneCountryCode",
+          "dataName": null,
+          "type": "tel",
+          "autocomplete": "tel-country-code",
+          "required": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": null,
+          "dataName": "areaCode",
+          "type": "tel",
+          "autocomplete": "tel-area-code",
+          "required": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": null,
+          "dataName": "exchangeNumber",
+          "type": "tel",
+          "autocomplete": "tel-local-prefix",
+          "required": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": null,
+          "dataName": "subscriberNumber",
+          "type": "tel",
+          "autocomplete": "tel-local-suffix",
+          "required": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": "gender",
+          "dataName": null,
+          "type": "radio",
+          "autocomplete": null,
+          "required": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": "gender",
+          "dataName": null,
+          "type": "radio",
+          "autocomplete": null,
+          "required": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": "gender",
+          "dataName": null,
+          "type": "radio",
+          "autocomplete": null,
+          "required": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": "email",
+          "dataName": null,
+          "type": "text",
+          "autocomplete": null,
+          "required": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": null,
+          "dataName": "email-confirm",
+          "type": "text",
+          "autocomplete": null,
+          "required": true
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "checkbox",
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "人数変更"
+        },
+        {
+          "tag": "SELECT",
+          "id": "",
+          "name": "numberOfMales",
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "SELECT",
+          "id": "",
+          "name": "numberOfFemales",
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "SELECT",
+          "id": "",
+          "name": "numberOfOthers",
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "+ 部屋を追加する"
+        },
+        {
+          "tag": "SELECT",
+          "id": "",
+          "name": "reservationCheckInTime",
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "TEXTAREA",
+          "id": "",
+          "name": "reservationGuestComment",
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "キャンセル料金などについて"
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "radio",
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "radio",
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "約款"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "プライバシーポリシー"
+        },
+        {
+          "tag": "INPUT",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "checkbox",
+          "autocomplete": null,
+          "required": false
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": "button",
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "決済へ進む"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "詳細▲"
+        },
+        {
+          "tag": "BUTTON",
+          "id": "",
+          "name": null,
+          "dataName": null,
+          "type": null,
+          "autocomplete": null,
+          "required": false,
+          "buttonText": "詳細"
+        }
+      ]
+    }
+  ]
+}

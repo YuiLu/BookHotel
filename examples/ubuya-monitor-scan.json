@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-04T15:51:48.500Z",
+  "hotel": "湖山亭 うぶや（产屋）",
+  "hotelCode": "4398",
+  "engine": "tripla",
+  "dates": [
+    {
+      "stay": {
+        "checkIn": "2026-11-09",
+        "checkOut": "2026-11-10"
+      },
+      "offset": 0,
+      "bookableOffers": 0
+    }
+  ],
+  "primary": [],
+  "alternatives": [],
+  "alternativesCheckedAt": "2026-10-04T15:51:48.500Z"
+}

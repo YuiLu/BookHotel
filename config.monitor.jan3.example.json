@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "hotel": {
+    "engine": "d-reserve",
+    "code": "0000001834",
+    "name": "秀峰閣 湖月",
+    "lodgerTypeCodes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "questions": [
+      {
+        "code": 8153,
+        "title": "交通手段",
+        "formType": "SELECT_ONE",
+        "checkoutKey": "transport"
+      }
+    ]
+  },
+  "stays": [
+    {
+      "checkIn": "2027-01-03",
+      "checkOut": "2027-01-04"
+    }
+  ],
+  "guests": {
+    "adults": 2
+  },
+  "filters": {
+    "roomCodes": [
+      "RM00010240"
+    ],
+    "planCodes": [
+      "PL00028608"
+    ],
+    "maxTotalJpy": 100000,
+    "extraTaxBudgetJpy": 300
+  },
+  "browser": {
+    "headless": true,
+    "channel": "chromium"
+  },
+  "checkout": {
+    "mode": "monitor",
+    "requireFreeCancellation": false
+  },
+  "notifications": {
+    "pushplus": {
+      "enabled": true,
+      "tokenEnv": "PUSHPLUS_TOKEN",
+      "includeAlternatives": false,
+      "notifyOnRestock": false
+    }
+  }
+}

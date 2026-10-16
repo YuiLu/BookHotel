@@ -1,0 +1,65 @@
+{
+  "at": "2026-10-04T07:43:49.798Z",
+  "hotel": "秀峰閣 湖月",
+  "dates": [
+    {
+      "stay": {
+        "checkIn": "2027-04-03",
+        "checkOut": "2027-04-04"
+      },
+      "offset": 0,
+      "bookableOffers": 0
+    },
+    {
+      "stay": {
+        "checkIn": "2027-04-02",
+        "checkOut": "2027-04-03"
+      },
+      "offset": -1,
+      "bookableOffers": 0
+    },
+    {
+      "stay": {
+        "checkIn": "2027-04-04",
+        "checkOut": "2027-04-05"
+      },
+      "offset": 1,
+      "bookableOffers": 0
+    },
+    {
+      "stay": {
+        "checkIn": "2027-04-01",
+        "checkOut": "2027-04-02"
+      },
+      "offset": -2,
+      "bookableOffers": 0
+    },
+    {
+      "stay": {
+        "checkIn": "2027-04-05",
+        "checkOut": "2027-04-06"
+      },
+      "offset": 2,
+      "bookableOffers": 0
+    },
+    {
+      "stay": {
+        "checkIn": "2027-03-31",
+        "checkOut": "2027-04-01"
+      },
+      "offset": -3,
+      "bookableOffers": 0
+    },
+    {
+      "stay": {
+        "checkIn": "2027-04-06",
+        "checkOut": "2027-04-07"
+      },
+      "offset": 3,
+      "bookableOffers": 0
+    }
+  ],
+  "primary": [],
+  "alternatives": [],
+  "alternativesCheckedAt": "2026-10-04T07:43:49.798Z"
+}

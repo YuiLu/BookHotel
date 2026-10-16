@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "hotel": {
+    "engine": "d-reserve",
+    "code": "0000001834",
+    "name": "秀峰閣 湖月",
+    "lodgerTypeCodes": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6
+    ],
+    "questions": [
+      {
+        "code": 8153,
+        "title": "交通手段",
+        "formType": "SELECT_ONE",
+        "checkoutKey": "transport"
+      }
+    ]
+  },
+  "stays": [
+    {
+      "checkIn": "2027-04-03",
+      "checkOut": "2027-04-04"
+    }
+  ],
+  "alternatives": {
+    "enabled": true,
+    "daysBefore": 3,
+    "daysAfter": 3,
+    "allRoomTypes": true,
+    "roomCodes": [],
+    "roomKeywords": [],
+    "allowBooking": false,
+    "intervalSeconds": 600,
+    "includeOverBudget": true
+  },
+  "guests": {
+    "adults": 2,
+    "childA": 0,
+    "childB": 0,
+    "childC": 0,
+    "childD": 0,
+    "infant": 0
+  },
+  "filters": {
+    "roomCodes": [],
+    "planCodes": [],
+    "roomKeywords": [
+      "和室"
+    ],
+    "planKeywords": [],
+    "excludedKeywords": [
+      "レディース",
+      "記念日"
+    ],
+    "maxTotalJpy": 100000,
+    "extraTaxBudgetJpy": 300
+  },
+  "poll": {
+    "intervalSeconds": 120,
+    "jitterSeconds": 20,
+    "maxBackoffSeconds": 1800,
+    "requestTimeoutSeconds": 30,
+    "maxConsecutiveErrors": 12,
+    "maxPages": 10,
+    "maxCycles": 0
+  },
+  "browser": {
+    "headless": false,
+    "channel": "chromium"
+  },
+  "checkout": {
+    "mode": "monitor",
+    "allowFinalSubmit": false,
+    "acceptTermsAndPrivacy": false,
+    "acceptedCancellationPolicySha256": "",
+    "handoffMinutes": 30,
+    "arrivalTime": "15:00",
+    "overseas": true,
+    "countryCallingCode": "86",
+    "gender": "MALE",
+    "genderCounts": {
+      "adults": {
+        "male": 1,
+        "female": 1,
+        "other": 0
+      }
+    },
+    "transport": "公共交通機関",
+    "fields": [],
+    "paymentFields": [],
+    "paymentFrameOrigins": [],
+    "paymentSteps": [],
+    "guestEnv": {
+      "lastName": "GUEST_LAST_NAME",
+      "firstName": "GUEST_FIRST_NAME",
+      "lastNameKana": "GUEST_LAST_NAME_KANA",
+      "firstNameKana": "GUEST_FIRST_NAME_KANA",
+      "email": "GUEST_EMAIL",
+      "phone": "GUEST_PHONE"
+    },
+    "cardEnv": {
+      "number": "CARD_NUMBER",
+      "holder": "CARD_HOLDER",
+      "month": "CARD_EXP_MONTH",
+      "year": "CARD_EXP_YEAR",
+      "cvc": "CARD_CVC"
+    },
+    "requireFreeCancellation": false
+  },
+  "notifications": {
+    "pushplus": {
+      "enabled": false,
+      "tokenEnv": "PUSHPLUS_TOKEN",
+      "includeAlternatives": false,
+      "notifyOnRestock": false
+    }
+  }
+}

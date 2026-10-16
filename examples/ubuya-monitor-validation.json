@@ -1,0 +1,57 @@
+{
+  "at": "2026-10-04T15:55:28.178119+00:00",
+  "version": "1.3.0",
+  "engine": "tripla",
+  "hotelCode": "4398",
+  "roomCode": "20",
+  "stay": {
+    "checkIn": "2026-11-09",
+    "checkOut": "2026-11-10"
+  },
+  "guests": {
+    "adults": 2
+  },
+  "initialQuery": {
+    "at": "2026-10-04T15:34:06.177Z",
+    "primary": 1,
+    "totalJpy": 118800,
+    "noRefund": true,
+    "sample": "ubuya-monitor-initial-scan.json"
+  },
+  "latestQuery": {
+    "at": "2026-10-04T15:51:48.500Z",
+    "primary": 0,
+    "sample": "ubuya-monitor-scan.json"
+  },
+  "publicGuestPageProbe": {
+    "at": "2026-10-04T15:24:51.354075+00:00",
+    "stage": "/reservation/guest-detail",
+    "reached": true,
+    "triplaReservationAndPaymentWritesBlocked": true,
+    "nextButtonClicked": false,
+    "contactFieldSelectorsObserved": [
+      "#email",
+      "#email-confirm",
+      "#last-name-0",
+      "#first-name-0",
+      "#phone"
+    ]
+  },
+  "adapterLiveFormRetest": {
+    "status": "NO_MATCHING_OFFER",
+    "contactFillingVerifiedOnLiveSite": false
+  },
+  "adapterMockFormTest": {
+    "contactFieldsFilled": 5,
+    "reservationWrites": 0,
+    "priceChangeRejected": true,
+    "ambiguousPlanRejected": true
+  },
+  "realReservationSubmitted": false,
+  "realPaymentTested": false,
+  "holdConfirmed": false,
+  "pushplus": {
+    "actualSendTested": false,
+    "reason": "MISSING_ENV:PUSHPLUS_TOKEN"
+  }
+}

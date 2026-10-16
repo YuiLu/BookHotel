@@ -1,0 +1,97 @@
+{
+  "candidate": {
+    "hotelCode": "0000003178",
+    "stay": {
+      "checkIn": "2027-01-12",
+      "checkOut": "2027-01-13"
+    },
+    "planCode": "PL00065960",
+    "planName": "【素泊まり】海辺とレトロな温泉街を、気ままにぶらり。自分のペースで楽しむ熱海ステイ",
+    "roomCode": "RM00019024",
+    "roomName": "リラックススーペリア【洋室｜川側｜バス・トイレ付】",
+    "totalJpy": 41800,
+    "paymentMethods": "オンラインカード決済,PayPay,現地払い"
+  },
+  "totalJpy": 41800,
+  "cancellationPolicy": "以下のキャンセル料金を利用施設から請求いたします。\n連絡なしの不泊/不着：利用料金の100%\n当日：利用料金の100%\n1日前まで：80%\n3日前まで：50%\n7日前まで：20%\n8日前まで：0%\n",
+  "policySha256": "9cb2e32708ada9a1ccf057778386967ab85ec9b5955cf3235436163828260b38",
+  "cancellationRates": {
+    "0": 100,
+    "1": 80,
+    "3": 50,
+    "7": 20,
+    "8": 0,
+    "-1": 100
+  },
+  "cancellationEstimate": {
+    "asOfDate": "2026-10-04",
+    "daysBeforeCheckIn": 100,
+    "ratePercent": 0,
+    "freeDaysRemaining": 93,
+    "basis": "inferred-beyond-last-rate-bound",
+    "monotonic": true
+  },
+  "hotelCode": "0000003178",
+  "hotelName": "熱海 ホテル渚館",
+  "supportedPayment": false,
+  "paymentMethods": [
+    {
+      "type": "CREDIT_CARD",
+      "agent": "TRAVELPAY"
+    },
+    {
+      "type": "PAYPAY",
+      "agent": "PAYPAY"
+    },
+    {
+      "type": "LOCAL",
+      "agent": null
+    }
+  ],
+  "hotelFeatures": {
+    "wbfDynamicPackage": false,
+    "vconnect": true,
+    "adCancelInsurance": true,
+    "cart": false,
+    "nonMemberReserverAddressRequired": "DISABLED",
+    "registeringReserverAsMemberDisabled": false,
+    "usePointForCancelCharge": true,
+    "reservationChangeable": {
+      "changeDates": false,
+      "increaseStays": false,
+      "decreaseStays": true,
+      "increaseLodgers": false,
+      "decreaseLodgers": true,
+      "increaseRooms": false,
+      "decreaseRooms": false,
+      "addRoomTypes": false
+    },
+    "includeReserverAttributesInEmail": false,
+    "quickResponseCode": {
+      "enabled": false,
+      "template": null,
+      "description": null
+    },
+    "linkedServiceStatus": {
+      "linkedServiceTitle": null,
+      "talkappiOrder": false,
+      "enabled": false
+    }
+  },
+  "questionForms": [
+    {
+      "code": 15392,
+      "revision": 1,
+      "formType": "TEXT",
+      "displayOrder": 1,
+      "title": "お子様について",
+      "comment": "添い寝でのお子様のご宿泊の場合には\r\n人数をご入力ください。",
+      "required": true,
+      "items": [],
+      "answerText": null,
+      "answerItemValues": null
+    }
+  ],
+  "unresolvedQuestions": [],
+  "taxNotes": "＜入湯税＞\r\nおとな（12歳以上）のお客様には、1泊あたり150円の入湯税を申し受けます。\r\n\r\n＜宿泊税＞\r\n熱海市では、宿泊施設でのご宿泊に対し、宿泊税をいただいております。\r\n中学生以上のお客様1名1泊につき200円の宿泊税を申し受けます。"
+}

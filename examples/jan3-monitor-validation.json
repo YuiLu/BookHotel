@@ -1,0 +1,53 @@
+{
+  "at": "2026-10-04T13:49:37.335Z",
+  "version": "1.2.0",
+  "hotelCode": "0000001834",
+  "stay": {
+    "checkIn": "2027-01-03",
+    "checkOut": "2027-01-04"
+  },
+  "guests": {
+    "adults": 2,
+    "childA": 0,
+    "childB": 0,
+    "childC": 0,
+    "childD": 0,
+    "infant": 0
+  },
+  "primary": [
+    {
+      "hotelCode": "0000001834",
+      "stay": {
+        "checkIn": "2027-01-03",
+        "checkOut": "2027-01-04"
+      },
+      "planCode": "PL00028608",
+      "planName": "※スタンダードプラン（次の間タイプ和室）",
+      "roomCode": "RM00010240",
+      "roomName": "次の間タイプ和室",
+      "totalJpy": 85800,
+      "paymentMethods": "オンラインカード決済",
+      "offset": 0
+    }
+  ],
+  "scans": [
+    {
+      "at": "2026-10-04T13:49:31.318Z",
+      "primary": 1
+    },
+    {
+      "at": "2026-10-04T13:49:37.290Z",
+      "primary": 1
+    }
+  ],
+  "notification": {
+    "transport": "MOCKED: no request sent to PushPlus",
+    "queuedMessages": 1,
+    "restarts": 1,
+    "duplicateMessages": 0,
+    "realPushPlusTokenUsed": false,
+    "actualPhoneDeliveryVerified": false
+  },
+  "realReservationCreated": false,
+  "realPaymentTested": false
+}

@@ -1,0 +1,45 @@
+{
+  "at": "2026-10-04T15:34:06.177Z",
+  "hotel": "湖山亭 うぶや（产屋）",
+  "hotelCode": "4398",
+  "engine": "tripla",
+  "dates": [
+    {
+      "stay": {
+        "checkIn": "2026-11-09",
+        "checkOut": "2026-11-10"
+      },
+      "offset": 0,
+      "bookableOffers": 1
+    }
+  ],
+  "primary": [
+    {
+      "engine": "tripla",
+      "hotelCode": "4398",
+      "stay": {
+        "checkIn": "2026-11-09",
+        "checkOut": "2026-11-10"
+      },
+      "roomCode": "20",
+      "roomName": "Special Room With Open-Air Bath(98㎡)【Mt. Fuji View/ Non-Smoking】",
+      "planCode": "14572645-20-14098-4398",
+      "hotelPlanCode": "14572645",
+      "planName": "Standard 1 night stay with 2 meals - Seasonal buffet FY2026",
+      "totalJpy": 118800,
+      "currency": "JPY",
+      "priceBreakdown": {
+        "baseJpy": 108000,
+        "consumptionTaxJpy": 10800,
+        "accommodationTaxJpy": 0
+      },
+      "inventory": 1,
+      "noRefund": true,
+      "cancellationFreeDeadline": "",
+      "paymentMethods": "Online payment by credit card",
+      "offset": 0
+    }
+  ],
+  "alternatives": [],
+  "alternativesCheckedAt": "2026-10-04T15:34:06.177Z"
+}

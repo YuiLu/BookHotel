@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "hotel": {
+    "engine": "tripla",
+    "code": "4398",
+    "name": "湖山亭 うぶや（产屋）",
+    "bookingUrl": "https://www.ubuya.co.jp/en/room/",
+    "lodgerTypeCodes": [
+      0
+    ],
+    "questions": []
+  },
+  "stays": [
+    {
+      "checkIn": "2026-11-29",
+      "checkOut": "2026-11-30"
+    }
+  ],
+  "alternatives": {
+    "enabled": false,
+    "daysBefore": 3,
+    "daysAfter": 3,
+    "allRoomTypes": true,
+    "includeOverBudget": true,
+    "allowBooking": false,
+    "intervalSeconds": 600
+  },
+  "guests": {
+    "adults": 2
+  },
+  "filters": {
+    "roomCodes": [
+      "20"
+    ],
+    "planCodes": [],
+    "maxTotalJpy": 150000,
+    "extraTaxBudgetJpy": 300
+  },
+  "poll": {
+    "intervalSeconds": 120,
+    "jitterSeconds": 20
+  },
+  "browser": {
+    "headless": true,
+    "channel": "chromium"
+  },
+  "checkout": {
+    "mode": "monitor",
+    "requireFreeCancellation": false
+  },
+  "notifications": {
+    "pushplus": {
+      "enabled": true,
+      "tokenEnv": "PUSHPLUS_TOKEN",
+      "includeAlternatives": false,
+      "notifyOnRestock": false
+    }
+  }
+}

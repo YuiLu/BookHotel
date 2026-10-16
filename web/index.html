@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#193e35"><meta name="description" content="宿见，把等待交给监控，把旅途留给自己。酒店空房监控本地控制台。">
+  <title>宿见 Staywatch · 酒店空房监控</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23193e35'/%3E%3Cpath d='M10 45 29 18 39 33 47 25 57 45Z' fill='%23dbedb2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/style.css"><script type="module" src="/app.js"></script>
+</head>
+<body>
+<aside class="sidebar">
+  <a class="brand" href="/" aria-label="宿见首页"><span class="brand-mark">山</span><span>宿见<small>STAYWATCH</small></span></a>
+  <div class="workspace">个人工作空间 <span>LOCAL</span></div>
+  <nav aria-label="主导航">
+    <button class="nav-item active" data-view="overview"><span>◫</span>监控总览</button>
+    <button class="nav-item" data-view="settings"><span>⚙</span>监控设置</button>
+    <button class="nav-item" data-view="notifications"><span>♧</span>通知中心<span id="notice-count" class="nav-count">0</span></button>
+  </nav>
+  <div class="sidebar-guide"><span class="spark">✧</span><strong>让好房间，主动找到你。</strong><p>发现空房后通过微信提醒。<br>同一日期与房型默认只提醒一次。</p><a href="https://github.com/YuiLu/BookHotel" target="_blank" rel="noreferrer">项目与使用文档 <span>↗</span></a></div>
+  <div class="local-status"><i></i> 本机运行 · 数据保存在本地</div>
+</aside>
+<div class="shell">
+  <header class="topbar"><div class="breadcrumb">工作空间 <span>/</span> <strong id="page-name">监控总览</strong></div><span class="local-pill"><i></i> LOCAL CONSOLE</span></header>
+  <main>
+    <section class="page-heading"><div><p class="eyebrow">A LITTLE PATIENCE, A BETTER STAY.</p><h1 id="page-title">下一程，从心仪的房间开始<span>。</span></h1><p id="page-description">设好期待的旅程，剩下的等待交给宿见。</p></div><span id="connection" class="connection"><i></i> 正在连接</span></section>
+
+    <div id="overview-view" class="view">
+      <section class="hero">
+        <div class="hero-copy"><span class="hero-kicker"><i></i> YOUR NEXT ESCAPE</span><h2>富士山下，<br>等一间喜欢的房。</h2><p>从湖畔温泉到海边旅宿，<br>让每一次空房出现，都不被错过。</p><div class="hero-tags"><span>2 种预订引擎</span><span>前后日期探索</span><span>微信空房提醒</span></div></div>
+        <div class="landscape" role="img" aria-label="富士山、湖泊与夕阳的抽象风景"><div class="sun"></div><div class="cloud c1"></div><div class="cloud c2"></div><div class="mountain back"></div><div class="mountain fuji"></div><div class="snow"></div><div class="foothill"></div><div class="lake"></div><div class="island"></div><div class="waterline w1"></div><div class="waterline w2"></div><div class="waterline w3"></div><div class="scene-label">河口湖，山梨 <span>35°31′ N 138°45′ E</span></div></div>
+      </section>
+      <section class="stats" aria-label="监控统计">
+        <article class="stat"><div><span>当前任务</span><span class="stat-icon">◉</span></div><strong id="task-stat">尚未开始</strong><p id="task-caption">保存设置后，即可开始监控</p></article>
+        <article class="stat"><div><span>目标可订方案</span><span class="stat-icon">⌂</span></div><strong id="primary-stat">—<small>个</small></strong><p id="snapshot-caption">等待首次查询</p></article>
+        <article class="stat"><div><span>备选可订方案</span><span class="stat-icon">▦</span></div><strong id="alternative-stat">—<small>个</small></strong><p id="alternative-caption">探索相邻日期与不同房型</p></article>
+        <article class="stat"><div><span>已受理空房提醒</span><span class="stat-icon">↗</span></div><strong id="push-stat">0<small>组</small></strong><p>跨重启保留，同一房型默认去重</p></article>
+      </section>
+    </div>
+
+    <div class="workspace-grid" id="workspace-grid">
+      <section class="panel settings-panel" id="settings-panel">
+        <div class="panel-heading"><div><span class="section-number">01</span><h2>设置你的旅程</h2></div><span id="saved-state" class="subtle-tag">已保存</span></div>
+        <form id="monitor-form">
+          <label for="hotelId">目的酒店</label><div class="select-wrap"><select id="hotelId" name="hotelId" required></select></div><div class="hotel-meta"><span id="hotel-region"></span><span id="hotel-engine" class="engine-badge"></span></div>
+          <div class="form-row"><div><label for="checkIn">入住日期</label><input type="date" id="checkIn" name="checkIn" required></div><div><label for="checkOut">退房日期 <span id="nights" class="label-note"></span></label><input type="date" id="checkOut" name="checkOut" required></div></div>
+          <div class="form-row"><div><label for="adults">入住人数</label><select id="adults" name="adults"><option value="1">1 位成人 · 1 间房</option><option value="2">2 位成人 · 1 间房</option><option value="3">3 位成人 · 1 间房</option><option value="4">4 位成人 · 1 间房</option><option value="5">5 位成人 · 1 间房</option><option value="6">6 位成人 · 1 间房</option></select></div><div><label for="maxTotalJpy">住宿总预算 <span class="label-note">JPY</span></label><input type="number" id="maxTotalJpy" name="maxTotalJpy" min="1" required></div></div>
+          <label for="roomCodes">目标房型编号 <span class="label-note">留空查询全部</span></label><input id="roomCodes" name="roomCodes" placeholder="例如 20，多个编号用逗号分隔"><p id="room-hint" class="field-hint"></p>
+          <div class="range-box"><div class="switch-row"><div><strong>也看看相邻日期</strong><p>发现前后日期的备选空房</p></div><label class="switch"><input type="checkbox" id="alternativesEnabled" name="alternativesEnabled" aria-label="查询相邻日期"><span></span></label></div><div id="range-options" class="range-options"><div class="range-input">提前 <input type="number" id="daysBefore" name="daysBefore" min="0" max="30" aria-label="提前天数"> 天</div><span class="range-dots">···</span><div class="range-input">延后 <input type="number" id="daysAfter" name="daysAfter" min="0" max="30" aria-label="延后天数"> 天</div></div><label class="checkbox-label"><input type="checkbox" id="allRoomTypes" name="allRoomTypes">备选包含其他房型</label></div>
+          <details id="advanced"><summary>更多筛选与查询设置 <span>＋</span></summary><div class="advanced-content"><label for="roomKeywords">房型关键词 <span class="label-note">逗号分隔</span></label><input id="roomKeywords" name="roomKeywords" placeholder="例如 露天浴池"><label for="planCodes">方案编号 <span class="label-note">留空不限</span></label><input id="planCodes" name="planCodes" placeholder="多个编号用逗号分隔"><div class="form-row"><div><label for="intervalSeconds">查询间隔（秒）</label><input id="intervalSeconds" name="intervalSeconds" type="number" min="30" max="86400" required></div><div><label for="extraTaxBudgetJpy">另预留税费（JPY）</label><input id="extraTaxBudgetJpy" name="extraTaxBudgetJpy" type="number" min="0" required></div></div><p class="field-hint">轮询带随机延迟，遇到错误会自动退避。备选日期每 10 分钟查询一次。</p></div></details>
+          <div class="switch-row push-toggle"><div><strong>发现空房，微信提醒我</strong><p>通过 PushPlus 发送，默认不重复推送</p></div><label class="switch"><input type="checkbox" id="pushEnabled" name="pushEnabled" aria-label="启用 PushPlus"><span></span></label></div>
+          <div class="quiet-options"><label class="checkbox-label"><input type="checkbox" id="includeAlternatives" name="includeAlternatives">也推送预算内的备选</label><label class="checkbox-label"><input type="checkbox" id="notifyOnRestock" name="notifyOnRestock">售罄后重新有房时再次提醒</label></div>
+          <button type="submit" id="save-button" class="button button-secondary full">保存监控设置 <span>↗</span></button>
+        </form>
+      </section>
+      <div class="results-column" id="results-column">
+        <section class="panel control-panel"><div class="control-top"><div><span class="eyebrow">LIVE MONITOR</span><h2 id="current-hotel">湖山亭 产屋</h2><p id="current-summary">正在载入配置…</p></div><span id="job-badge" class="status-badge">待启动</span></div><div class="action-row"><button id="start-button" class="button button-primary"><span>▷</span> 开始监控</button><button id="scan-button" class="button button-secondary">单次查询</button><button id="stop-button" class="button button-danger" hidden>■ 停止任务</button></div><p class="control-foot"><span class="tiny-shield">◇</span> 此控制台只查询与通知，不会创建预约或扣款。</p><p id="job-error" class="inline-error" hidden role="alert"></p></section>
+        <section class="panel availability-panel"><div class="panel-heading"><div><span class="section-number">02</span><h2>空房发现</h2></div><button id="refresh-button" class="text-button">↻ 刷新</button></div><div class="results-toolbar"><div class="tabs" role="tablist" aria-label="空房类型"><button role="tab" aria-selected="true" class="tab active" data-tab="primary">目标房型 <span id="primary-count">0</span></button><button role="tab" aria-selected="false" class="tab" data-tab="alternatives">备选建议 <span id="alternative-count">0</span></button></div><span id="results-time">尚未查询</span></div><div id="date-strip" class="date-strip"></div><div id="result-note" class="result-note" hidden></div><div id="offers" class="offers"><div class="empty-state"><div class="empty-icon">⌂</div><h3>好旅程，值得等待</h3><p>设好酒店与日期，点击「单次查询」<br>看看现在有哪些可订的房间。</p></div></div><div class="results-footer"><i></i><span>报价为查询时的库存快照，打开官网后请再次确认价格与取消政策。</span></div></section>
+        <section class="panel events-panel"><div class="panel-heading"><div><span class="section-number">03</span><h2>最近动态</h2></div><span class="subtle-tag">最近 30 条</span></div><div id="events" class="events"><p class="muted">暂无查询动态，开始一次查询后会显示在这里。</p></div></section>
+      </div>
+    </div>
+
+    <div id="notifications-view" class="view" hidden>
+      <div class="notification-grid"><section class="panel notification-settings"><div class="panel-heading"><div><span class="section-number">01</span><h2>微信通知 · PushPlus</h2></div><span id="token-status" class="subtle-tag">未配置</span></div><div class="notification-illustration">↗<span>有房消息，即刻送达。</span></div><p class="description">填写你的 PushPlus token，空房出现时即可收到微信提醒。token 仅保存在本机的 <code>.env</code>，页面不会回显。</p><form id="token-form"><label for="push-token">PushPlus token</label><input id="push-token" type="password" autocomplete="new-password" placeholder="输入新 token，保留空白则不更改" minlength="16" maxlength="160" required><div class="action-row"><button class="button button-primary" type="submit" id="token-save">保存 token</button><button id="notify-test-button" class="button button-secondary" type="button">发送测试通知</button></div></form><p class="field-hint">测试仅验证通知通道，不修改空房推送去重记录。API 受理后，请在微信确认送达。</p><a class="external-link" href="https://www.pushplus.plus/" target="_blank" rel="noreferrer">前往 PushPlus 获取 token ↗</a></section><section class="panel notification-explainer"><span class="eyebrow">LESS NOISE, MORE POSSIBILITY</span><h2>只提醒值得关注的变化。</h2><div class="explain-step"><span>01</span><div><h3>同一空房，提醒一次</h3><p>以酒店、日期、房型和人数去重。高频轮询、价格变化和重启程序都不会重复提醒。</p></div></div><div class="explain-step"><span>02</span><div><h3>备选也可以通知</h3><p>开启「也推送预算内的备选」，相邻日期和其他房型也会进入提醒范围。</p></div></div><div class="explain-step"><span>03</span><div><h3>重新放房，按需提醒</h3><p>可选开启重新有房提醒。连续三次成功查询未出现，再次出现时才重新通知。</p></div></div><div id="push-summary" class="push-summary"></div></section></div>
+    </div>
+    <footer>宿见 STAYWATCH <span>把等待交给监控，把旅途留给自己。</span><span>本地控制台 · D-Reserve / Tripla</span></footer>
+  </main>
+</div>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+<noscript>请启用 JavaScript 以使用本地监控控制台。</noscript>
+</body>
+</html>

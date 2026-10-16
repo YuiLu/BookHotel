@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-04T16:08:24.288802+00:00",
+  "date": "2026-11-29",
+  "hotelCode": "4398",
+  "roomCode": "20",
+  "testNotificationAccepted": true,
+  "stockNotificationAccepted": true,
+  "stockNotificationAttempts": 1,
+  "dedup": {
+    "at": "2026-10-04T16:01:45.040Z",
+    "cycles": 100,
+    "notificationStateReloadedFromDisk": true,
+    "additionalSendCalls": 0,
+    "lastOutcome": "unchanged"
+  },
+  "actualPhoneDeliveryVerified": false,
+  "tokenIncludedInReport": false,
+  "liveSecondScanVerified": true,
+  "additionalLiveStockNotifications": 0
+}

@@ -1,0 +1,91 @@
+{
+  "inspectedAt": "2026-10-04",
+  "readOnly": true,
+  "hotels": [
+    {
+      "hotelCode": "0000003178",
+      "hotelName": "熱海 ホテル渚館",
+      "stay": {
+        "checkIn": "2027-01-12",
+        "checkOut": "2027-01-13"
+      },
+      "planCode": "PL00065960",
+      "roomCode": "RM00019024",
+      "totalJpy": 41800,
+      "cancellationPolicy": {
+        "code": "CP00004093",
+        "content": "以下のキャンセル料金を利用施設から請求いたします。\n連絡なしの不泊/不着：利用料金の100%\n当日：利用料金の100%\n1日前まで：80%\n3日前まで：50%\n7日前まで：20%\n8日前まで：0%\n",
+        "rate": {
+          "0": 100,
+          "1": 80,
+          "3": 50,
+          "7": 20,
+          "8": 0,
+          "-1": 100
+        }
+      },
+      "paymentMethods": [
+        {
+          "type": "CREDIT_CARD",
+          "agent": "TRAVELPAY"
+        },
+        {
+          "type": "PAYPAY",
+          "agent": "PAYPAY"
+        },
+        {
+          "type": "LOCAL",
+          "agent": null
+        }
+      ],
+      "features": {
+        "cart": false,
+        "nonMemberReserverAddressRequired": "DISABLED"
+      },
+      "requiredQuestions": [
+        {
+          "code": 15392,
+          "title": "お子様について",
+          "formType": "TEXT"
+        }
+      ]
+    },
+    {
+      "hotelCode": "0000001223",
+      "hotelName": "沖縄かりゆしビーチリゾート・オーシャンスパ",
+      "stay": {
+        "checkIn": "2027-01-12",
+        "checkOut": "2027-01-13"
+      },
+      "planCode": "PL00060357",
+      "roomCode": "RM00022712",
+      "totalJpy": 22892,
+      "cancellationPolicy": {
+        "code": "CP00000931",
+        "content": "連絡なしの宿泊・不着：利用料金の100％\r\n当日：利用料金の80%\r\n1日前まで：50%\r\n2日前まで：30％\r\n7～3日前まで：20%\r\n8日前まで：無料",
+        "rate": {
+          "0": 80,
+          "1": 50,
+          "2": 30,
+          "7": 20,
+          "-1": 100
+        }
+      },
+      "paymentMethods": [
+        {
+          "type": "LOCAL",
+          "agent": null
+        },
+        {
+          "type": "CREDIT_CARD",
+          "agent": "JBI"
+        }
+      ],
+      "features": {
+        "cart": false,
+        "nonMemberReserverAddressRequired": "DISABLED"
+      },
+      "requiredQuestions": []
+    }
+  ]
+}

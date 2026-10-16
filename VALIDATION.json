@@ -1,0 +1,84 @@
+{
+  "at": "2026-10-16T06:53:39.538008+00:00",
+  "node": "v24.13.1",
+  "playwright": "1.63.0",
+  "tests": {
+    "passed": 43,
+    "failed": 0,
+    "network": "All hotel and PushPlus requests in automated tests mocked; local HTTP and Chromium used for dashboard integration"
+  },
+  "liveForm": {
+    "report": "LIVE_VALIDATION.json",
+    "entryRequestAborted": true,
+    "realReservationCreated": false,
+    "realPaymentTested": false
+  },
+  "rangeScan": {
+    "report": "examples/range-scan.json",
+    "dates": 7
+  },
+  "version": "1.4.0",
+  "multiHotel": {
+    "sharedEngine": "d-reserve",
+    "liveEntryTests": [
+      "0000001834",
+      "0000001223"
+    ],
+    "otherPaymentAgentInspected": "TRAVELPAY",
+    "realOrdersCreated": 0
+  },
+  "monitoring": {
+    "report": "examples/jan3-monitor-validation.json",
+    "sample": "examples/jan3-monitor-scan.json",
+    "targetOffers": 1,
+    "totalJpy": 85800,
+    "readOnlyLiveScans": 2
+  },
+  "pushplus": {
+    "enabledViaConfig": true,
+    "transportTested": "mocked and live API accepted",
+    "persistentDedup": true,
+    "repeatScanTestCycles": 100,
+    "restartDedupVerified": true,
+    "actualPhoneDeliveryVerified": false,
+    "realTokenUsed": true,
+    "actualSendTested": true,
+    "liveDedupReport": "examples/ubuya-nov29-pushplus-validation.json"
+  },
+  "tripla": {
+    "hotelCode": "4398",
+    "initialPrimaryOffers": 1,
+    "latestPrimaryOffers": 1,
+    "totalJpy": 118800,
+    "noRefund": true,
+    "publicGuestPageReached": true,
+    "liveContactFillingVerified": true,
+    "mockContactFieldsFilled": 5,
+    "supports": [
+      "monitor",
+      "prepare"
+    ],
+    "automaticSubmissionSupported": false,
+    "report": "examples/ubuya-monitor-validation.json",
+    "latestStay": {
+      "checkIn": "2026-11-29",
+      "checkOut": "2026-11-30"
+    },
+    "nov29LiveReport": "examples/ubuya-nov29-live-validation.json"
+  },
+  "dashboard": {
+    "desktopAndMobileVerified": true,
+    "mobileViewport": {
+      "width": 390,
+      "height": 844
+    },
+    "configurationAndTokenPersistenceVerified": true,
+    "startStopScanVerified": true,
+    "sessionAndOriginChecksVerified": true,
+    "checkoutMode": "monitor",
+    "realOrdersCreated": 0,
+    "realPushMessagesSentDuringDashboardTests": 0,
+    "screenshot": "docs/dashboard.png",
+    "mobileScreenshot": "docs/dashboard-mobile.png"
+  }
+}

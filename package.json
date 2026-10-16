@@ -1,0 +1,28 @@
+{
+  "name": "kogetsu-booking",
+  "version": "1.4.0",
+  "private": true,
+  "type": "module",
+  "description": "酒店空房轮询、PushPlus 去重与预约准备（D-Reserve / Tripla）",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/cli.js run",
+    "check": "node src/cli.js check",
+    "inspect": "node src/cli.js inspect",
+    "scan": "node src/cli.js scan",
+    "test": "node --test test/*.test.js",
+    "validate:live": "node scripts/validate-live.js",
+    "install:browser": "playwright install chromium",
+    "notify:test": "node src/cli.js notify-test",
+    "notify:reset": "node src/cli.js notify-reset",
+    "validate:tripla": "node scripts/validate-tripla.js",
+    "ui": "node src/dashboard.js"
+  },
+  "dependencies": {
+    "playwright": "^1.58.0",
+    "zod": "^4.3.0",
+    "dotenv": "^17.2.0"
+  }
+}

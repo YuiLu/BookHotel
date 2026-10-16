@@ -1,0 +1,45 @@
+{
+  "at": "2026-10-04T16:01:07.323Z",
+  "hotel": "湖山亭 うぶや（产屋）",
+  "hotelCode": "4398",
+  "engine": "tripla",
+  "dates": [
+    {
+      "stay": {
+        "checkIn": "2026-11-29",
+        "checkOut": "2026-11-30"
+      },
+      "offset": 0,
+      "bookableOffers": 1
+    }
+  ],
+  "primary": [
+    {
+      "engine": "tripla",
+      "hotelCode": "4398",
+      "stay": {
+        "checkIn": "2026-11-29",
+        "checkOut": "2026-11-30"
+      },
+      "roomCode": "20",
+      "roomName": "附露天浴池的特别房(98㎡)【富士山景观/禁烟】",
+      "planCode": "14572645-20-14098-4398",
+      "hotelPlanCode": "14572645",
+      "planName": "标准一晚住宿含两餐 - 时令自助餐",
+      "totalJpy": 118800,
+      "currency": "JPY",
+      "priceBreakdown": {
+        "baseJpy": 108000,
+        "consumptionTaxJpy": 10800,
+        "accommodationTaxJpy": 0
+      },
+      "inventory": 1,
+      "noRefund": true,
+      "cancellationFreeDeadline": "",
+      "paymentMethods": "信用卡支付",
+      "offset": 0
+    }
+  ],
+  "alternatives": [],
+  "alternativesCheckedAt": "2026-10-04T16:01:07.323Z"
+}

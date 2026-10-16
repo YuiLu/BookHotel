@@ -1,0 +1,79 @@
+{
+  "candidate": {
+    "hotelCode": "0000001223",
+    "stay": {
+      "checkIn": "2027-01-12",
+      "checkOut": "2027-01-13"
+    },
+    "planCode": "PL00060357",
+    "planName": "【2026年2月改装】生まれ変わった空間で寛ぎの時間◇館内スパ利用券付＆かりゆしラウンジ利用OK／素泊り",
+    "roomCode": "RM00022712",
+    "roomName": "モデレートツイン(2階)",
+    "totalJpy": 22892,
+    "paymentMethods": "オンラインカード決済,現地払い"
+  },
+  "totalJpy": 22892,
+  "cancellationPolicy": "連絡なしの宿泊・不着：利用料金の100％\r\n当日：利用料金の80%\r\n1日前まで：50%\r\n2日前まで：30％\r\n7～3日前まで：20%\r\n8日前まで：無料",
+  "policySha256": "e71006feb2f233e65a489fc64daf8620ff7e79c9119df40933118721d844af7a",
+  "cancellationRates": {
+    "0": 80,
+    "1": 50,
+    "2": 30,
+    "7": 20,
+    "-1": 100
+  },
+  "cancellationEstimate": {
+    "asOfDate": "2026-10-04",
+    "daysBeforeCheckIn": 100,
+    "ratePercent": 0,
+    "freeDaysRemaining": 93,
+    "basis": "inferred-beyond-last-rate-bound",
+    "monotonic": true
+  },
+  "hotelCode": "0000001223",
+  "hotelName": "沖縄かりゆしビーチリゾート・オーシャンスパ",
+  "supportedPayment": true,
+  "paymentMethods": [
+    {
+      "type": "LOCAL",
+      "agent": null
+    },
+    {
+      "type": "CREDIT_CARD",
+      "agent": "JBI"
+    }
+  ],
+  "hotelFeatures": {
+    "wbfDynamicPackage": false,
+    "vconnect": false,
+    "adCancelInsurance": true,
+    "cart": false,
+    "nonMemberReserverAddressRequired": "DISABLED",
+    "registeringReserverAsMemberDisabled": false,
+    "usePointForCancelCharge": true,
+    "reservationChangeable": {
+      "changeDates": false,
+      "increaseStays": false,
+      "decreaseStays": true,
+      "increaseLodgers": false,
+      "decreaseLodgers": true,
+      "increaseRooms": false,
+      "decreaseRooms": false,
+      "addRoomTypes": false
+    },
+    "includeReserverAttributesInEmail": false,
+    "quickResponseCode": {
+      "enabled": false,
+      "template": null,
+      "description": null
+    },
+    "linkedServiceStatus": {
+      "linkedServiceTitle": null,
+      "talkappiOrder": false,
+      "enabled": false
+    }
+  },
+  "questionForms": [],
+  "unresolvedQuestions": [],
+  "taxNotes": ""
+}
